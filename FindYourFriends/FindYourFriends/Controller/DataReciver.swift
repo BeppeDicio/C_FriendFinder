@@ -41,6 +41,7 @@ class DataReciver {
         }
     }
     
+    //TODO: refactor this parser, creating a codable object and parse it, not manually!
     private func parse(jsonData: Data, context:HomePage) -> [Friend]{
         
         var friends = [Friend]()
