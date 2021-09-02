@@ -11,6 +11,8 @@ import MapKit
 
 class HomePage: UIViewController, UITableViewDelegate, UITableViewDataSource, CLLocationManagerDelegate{
     
+    //TODO: Fix the reload of Tableview after acepting the localization permissions
+    
     // Creation of a my information profile
     //TODO: Creation of an onboarding process to get the data from the user.
     var mydata: Friend = Friend(id: 0,
